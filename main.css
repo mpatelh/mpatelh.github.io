@@ -63,6 +63,14 @@ a {
   }
 }
 
+/* miscellaneous seeking */
+.seeking {
+  color: blueviolet;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
 /* Header: profile picture and links */
 .profile-outer {
   max-width: 750px;

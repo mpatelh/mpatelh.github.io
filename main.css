@@ -63,11 +63,16 @@ a {
   }
 }
 
-/* miscellaneous seeking */
+/* miscellaneous text */
 .seeking {
   color: blueviolet;
   font-weight: bold;
   font-style: italic;
+  text-decoration: none;
+}
+
+.eligibility {
+  color: black;
   text-decoration: none;
 }
 
@@ -85,17 +90,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: -0.3rem -0.3rem;
 }
 
 .profile-child {
-  margin: 0.3rem;
+  margin-left: 0.6rem;
 }
 
 .profile-image {
-    margin: 0.3rem;
+    margin-top: 1.5rem;
     object-fit: contain;
-      height: 200px;
+    height: 200px;
 
 }
 

@@ -120,6 +120,10 @@ li p.links {
   margin-top: 0.5rem;
 }
 
+.list-headsep {
+  height: 4px;
+}
+
 /* Publications list */
 .paper-title {
   font-weight: bold;

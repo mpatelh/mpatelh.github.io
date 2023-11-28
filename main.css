@@ -7,7 +7,7 @@ html {
 /* good enough for GitHub, good enough for me :) */
 body {
   font-family: -apple-system,"Libre Franklin",BlinkMacSystemFont,"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 350;
+  font-weight: 400;
   font-size: 16px;
   color: #1b2125;
   line-height: 1.25;
@@ -88,7 +88,7 @@ a {
 /* miscellaneous text */
 .seeking {
   color: blueviolet;
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
   text-decoration: none;
 }
@@ -147,28 +147,28 @@ li p.links {
 
 /* Publications list */
 .paper-title {
-  font-weight: bold;
-}
-
-.paper-authors {
-  font-weight: normal;
-}
-
-.paper-venue {
-  font-weight: normal;
-  font-style: italic;
+  font-weight: 600;
 }
 
 .paper-year {
-    font-weight: bold;
-  }
-
-.paper-links {
-    font-weight: normal;
-    color:#777;
-  }
+    font-weight: 600;
+}
 
 .paper-award {
-    font-weight: bold;
+    font-weight: 600;
     color:darkred;
-  }
+}
+
+.paper-authors {
+  font-weight: 400;
+}
+
+.paper-venue {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.paper-links {
+    font-weight: 400;
+    color:#777;
+}

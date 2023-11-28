@@ -1,17 +1,16 @@
-/* extended from https://www.anish.io/css/main.css */
+/* originally adapted from https://www.anish.io/css/main.css */
 html {
-  margin: 0;
-  padding: 0;
-}
-
-/* good enough for GitHub, good enough for me :) */
-body {
   font-family: -apple-system,"Libre Franklin",BlinkMacSystemFont,"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
   font-size: 16px;
   color: #1b2125;
   line-height: 1.25;
   text-rendering: optimizeLegibility
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 pre,code {
@@ -28,11 +27,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
   line-height: 1.25;
 }
-
-h4 {
-  
-}
-
 
 h1 {
   margin-top: 1.5rem;
@@ -79,10 +73,8 @@ a {
   text-decoration: none;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  a:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
 }
 
 /* miscellaneous text */
@@ -145,7 +137,6 @@ li p.links {
   height: 4px;
 }
 
-/* Publications list */
 .paper-title {
   font-weight: 600;
 }

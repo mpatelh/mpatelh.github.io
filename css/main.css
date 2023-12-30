@@ -1,0 +1,205 @@
+html {
+    font-family: -apple-system, "Noto Sans", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b2125;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 60px; /* height of fixed header */
+}
+
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* W3 School's fixed top menu */
+div.navbar {
+    overflow: hidden;
+    background-color: #1b2125;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    max-width: inherit;
+}
+
+div.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+div.navbar a:hover {
+    background: #ddd;
+    color: #1b2125;
+}
+
+div.main {
+    margin-top: 60px;
+    margin-left: 4px;
+}
+
+div.profile-inner {
+    margin-left: 8px;
+}
+
+header.profile {
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    text-align: start;
+    align-items: center;
+}
+
+header.profile img {
+    object-fit: contain;
+    height: 220px;
+}
+
+header.profile h1 {
+    font-size: 180%;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+header.profile h3 {
+    font-size: 100%;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+header.profile h3 a { 
+    color: #1b2125;
+}
+
+header nav {
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+
+main {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+footer a {
+    color: #6d7880;
+}
+
+pre,code {
+    font-size: 14px;
+    font-family: "Inconsolata", Consolas, Menlo, monospace;
+    font-weight: 400
+}
+
+b,strong,h1,h2,h3,h4 {
+    font-weight: 600
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 4px;
+    line-height: 1.25;
+}
+  
+h1 {
+    font-size: 160%
+}
+
+h2 {
+    font-size: 130%
+}
+
+h3 {
+    font-size: 117%
+}
+
+h4, h5, h6 {
+    font-size: 105%
+}
+  
+ul,
+ol {
+    padding-left: 1.25rem;
+    margin-top: 6px;
+}
+  
+a {
+    color: #027db9;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+hr {
+    position:relative;
+    margin:1rem 0;
+    border:0;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #fff
+}
+
+.seeking {
+    color: blueviolet;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+}
+  
+.paper-title {
+    font-weight: 600;
+}
+
+.paper-year {
+    font-weight: 600;
+}
+
+.paper-award {
+    font-weight: 600;
+    color:darkred;
+}
+
+.paper-authors {
+font-weight: 400;
+}
+
+.paper-venue {
+font-weight: 400;
+font-style: italic;
+}
+
+.paper-links {
+    font-weight: 400;
+    color:#777;
+}
+
+
+/* List formatting */
+li.wide:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+li:not(:first-child) {
+    margin-top: 0.5rem;
+}
+
+li p {
+    margin: 0;
+}
+
+.list-headsep {
+    height: 4px;
+}

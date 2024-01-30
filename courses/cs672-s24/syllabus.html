@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Minesh Patel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="keywords" content="Minesh Patel">
+    <meta name="description" content="Rutgers CS Course 16:198:672: System Reliability at Scale (Spring 2024)">
+    <meta name="twitter:description" content="Rutgers CS Course 16:198:672: System Reliability at Scale (Spring 2024)">
+    <meta name="og:description" content="Rutgers CS Course 16:198:672: System Reliability at Scale (Spring 2024)">
+
+    <base href="/" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon-course/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon-course/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon-course/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon-course/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon-course/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon-course/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon-course/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon-course/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-course/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon-course/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-course/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-course/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-course/favicon-16x16.png">
+    <meta name="msapplication-TileImage" content="favicon-course/ms-icon-144x144.png">
+    <link rel="manifest" href="favicon-course/manifest.json">
+
+    <title>CS 672: System Reliability at Scale (Spring 2024)</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/courses.css">
+</head>
+<body>
+    <header class="course">
+        <h1>
+            CS 672: System Reliability at Scale 
+        </h1>
+        <h3>
+            Spring 2024
+        </h3>
+        <nav>
+            <a href="courses/cs672-s24/index.html">Home</a> | 
+            <a href="courses/cs672-s24/schedule.html">Schedule</a> |
+            <a href="courses/cs672-s24/syllabus.html">Syllabus</a> |
+            <a href="courses/cs672-s24/paper_review.html">Paper Review</a>
+        </nav>
+    </header>
+
+    <main> 
+
+        <h2>Class Format</h2>
+
+        This class will take place in person on campus. Active participation
+        from students is expected and will be graded.
+
+        <h2>Prerequisites</h2>
+
+        <p>
+            I recommend introductory familiarity with computer architecture and
+            statistics to get the most out of this course. Prior programming
+            experience building, running, and debugging C/C++ projects will be
+            helpful for assignments and the final project.
+        </p>
+
+        <p>
+            Please reach out to me if you have specific questions or concerns.
+        </p>
+
+        <h2>Textbooks</h2>
+        
+        <p>No books are required. Course material will be primarily based on
+        research articles. Links for references and readings will be provided through
+        this website.</p>
+    
+        <p>Optional textbooks that we will reference include:</p>
+        <ul>
+        <li>
+            <a href="https://google.github.io/building-secure-and-reliable-systems/raw/toc.html">
+                Heather Adkins, Betsy Beyer, Paul Blankinship, Ana Oprea, Piotr Lewandowski, Adam Stubblefield. <i>Building Secure & Reliable Systems</i>. O'Reilly Media, 2016.
+            </a>
+        </li>
+        <li>
+            <a href="https://sre.google/sre-book/table-of-contents">
+                Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy. <i>Site Reliability Engineering</i>. O'Reilly Media, 2016.
+            </a>
+        </li>
+        <li>
+            <a href="https://link.springer.com/book/10.1007/978-3-031-01761-2">
+                Barroso, Luiz André, et al. <i>The Datacenter as a Computer: Designing Warehouse-Scale Machines</i>. Springer Nature, 2019.
+            </a>
+        </li>
+        </ul>
+
+        <h2>Course Structure and Expected Work</h2>
+
+        <p>
+        This is an advanced graduate-level course comprising paper readings,
+        discussions, and debates as well as assignments and a final project.
+        Students are expected to participate by critically analyzing assigned
+        paper(s) and expressing their thoughts and ideas during class
+        discussions.
+        </p>
+        
+        <p>Expected coursework includes:</p>
+        <ul>    
+            <li><b>Paper reviews</b>: 1 required paper per class, possible additional reviews for extra credit.</li>
+            <li><b>Participation</b>: Preparing for and participating in in-class discussions and debates.</li>
+            <li><b>Assignment 1</b>: Programming assignment to gain some familiarity with tools used in reliability analysis and evaluation.</li>
+            <li><b>Assignment 2</b>: Writing a short "position paper" based on experiences from Assignment 1, in-class debates, and paper readings.  </li>
+            <li><b>Final project</b>: Mini-research project involving programming, writing, and a 10-minute presentation.</li>
+        </ul>
+
+        <h2>Grading</h2>
+
+        <ul>    
+            <li>10% class participation
+                <ul>
+                    <li>5% in-class discussions (asking + answering questions)</li>    
+                    <li>5% in-class debates</li>    
+                </ul>
+            </li>
+            <li>15% paper reviews (one per class)</li>
+            <li>10% assignment #1 (programming)</li>
+            <li>15% assignment #2 (writing)
+                <ul>
+                    <li>10% position paper</li>    
+                    <li>5% anonymous peer evaluation</li>    
+                </ul>
+            </li>
+            <li>50% final project
+                <ul>
+                    <li>10% proposal report (at 0%)</li>    
+                    <li>5% checkpoint discussion 1 (at 33%)</li>    
+                    <li>5% checkpoint discussion 2 (at 66%)</li>    
+                    <li>20% final report (at 100%)</li>    
+                    <li>10% ten-minute final presentation</li>    
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Class Participation</h2>
+
+        <p>Class participation is essential because this is largely a
+        discussion-based course. Students are expected to prepare for each
+        lecture based on assigned readings and share their thoughts during
+        in-class discussions.</p>
+        
+        <h2>Assignment 1: Programming</h2>
+
+        <p>TBA: Programming assignment to gain some familiarity with tools used
+        in reliability analysis and evaluation.</p>
+        
+        <h2>Assignment 2: Writing</h2>
+
+        <p>TBA: Position paper based on class topics.</p>
+        
+        <h2>Final project</h2>
+        <p>The project will be an open-ended mini-research project involving
+        design, analysis, and/or implementation. I will provide a list of ideas
+        to base your proposals on, but I highly encourage you to use them as
+        inspiration for your own ideas, which typically lead to better
+        motivation and results. </p>
+        
+        <p>Details TBA</p>
+
+        <h2>Exams</h2>
+        None
+        
+
+        <h2>Policies</h2>
+
+        <p><i>Academic Integrity:</i> Students should be familiar with the
+        University's <a href="http://academicintegrity.rutgers.edu">academic
+        integrity policy</a>. Any violations will be treated seriously according
+        to the policy. Please don't cheat- it's not worth it.</p>
+        
+        <h2>Acknowledgments</h2>
+        <p>This course draws inspiration from:</p>
+        <ul>
+            <li><a href="https://cs598txu-uiuc.github.io/spring22/">[UIUC] CS 598XU - Reliability of Cloud-scale Systems</a></li>
+            <li><a href="https://www.cs.drexel.edu/~csg63/courses/se576_wi19.html">[Drexel] SE 576 Software Reliability and Testing</a></li>
+        </ul>
+        <p>The course website is inspired by:</p>
+        <ul>
+            <li><a href="https://www.cs.utexas.edu/~bornholt/courses/cs395t-21sp">[UT Austin] CS 395T: Systems Verification and Synthesis</a></li>
+        </ul>
+    
+    </main>
+    <footer class="centered">
+        <a href="https://cs.rutgers.edu">Department of Computer Science</a> &nbsp—&nbsp <a href="https://www.rutgers.edu">Rutgers University</a>
+    </footer>
+</body>
+</html>

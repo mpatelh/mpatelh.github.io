@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Minesh Patel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="keywords" content="Minesh Patel">
+    <meta name="description" content="Rutgers CS Course 16:198:672: System Reliability at Scale (Spring 2024)">
+    <meta name="twitter:description" content="Rutgers CS Course 16:198:672: System Reliability at Scale (Spring 2024)">
+    <meta name="og:description" content="Rutgers CS Course 16:198:672: System Reliability at Scale (Spring 2024)">
+
+    <base href="/" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon-course/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon-course/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon-course/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon-course/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon-course/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon-course/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon-course/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon-course/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-course/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon-course/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-course/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-course/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-course/favicon-16x16.png">
+    <meta name="msapplication-TileImage" content="favicon-course/ms-icon-144x144.png">
+    <link rel="manifest" href="favicon-course/manifest.json">
+
+    <title>CS 672: System Reliability at Scale (Spring 2024)</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap">
+    <link rel="stylesheet" crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/courses.css">
+</head>
+<body>
+    <header class="course">
+        <h1>
+            CS 672: System Reliability at Scale
+        </h1>
+        <h3>
+            Spring 2024
+        </h3>
+        <nav>
+            <a href="courses/cs672-s24/index.html">Home</a> | 
+            <a href="courses/cs672-s24/schedule.html">Schedule</a> |
+            <a href="courses/cs672-s24/syllabus.html">Syllabus</a> |
+            <a href="courses/cs672-s24/paper_review.html">Paper Review</a>
+        </nav>
+    </header>
+
+    <main> 
+        <h2>Course Plan (subject to revision)</h2>
+        <table class="cschedule">
+        <thead>
+            <tr>
+                <td><h2><b>Week</b></h2></td>
+                <td><h2><b>Date</b></h2></td>
+                <td><h2><b>Assignments</b></h2></td>
+                <td><h2><b>Topic</b></h2></td>
+                <td><h2><b>Reading(s)</b></h2></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Jan 16</td>
+                <td class="textcolorassigned">Survey Assigned<br>(will be on Canvas)</td>
+                <td>Preview of the syllabus,<br>course objectives and activities.</td>
+                <td><ul><li><b>Required</b> (no reviews):</li><ul><li><a href="courses/cs672-s24/syllabus.html">Course Syllabus</a></li></ul></ul><ul><li><b>Recommended:</b></li><ul><li>None</li></ul></ul></td>
+            </tr>
+            <tr>
+                <td>Jan 18</td>
+                <td class="textcolordue">Survey Due<br>(not graded)</td>
+                <td>Background on large-scale<br>computing systems.</td>
+                <td><ul><li><b>Required:</b></li><ul><li>None</li></ul></ul><ul><li><b>Recommended:</b></li><ul><li><a href="https://link.springer.com/book/10.1007/978-3-031-01761-2">Barroso, Luiz André, et al., <i>The Datacenter as a Computer: Designing Warehouse-Scale Machines</i>, Chapter 1, Springer Nature, 2019.</a></li><li><a href="https://doi.org/10.1145/3102980.3103005">Huang, Peng, et al., <i>Gray Failure: The Achilles' Heel of Cloud-Scale Systems</i>, HotOS, 2017.</a></li><li><a href="https://doi.org/10.1145/3579371.3589349">Gabriel H., et al., <i>A Research Retrospective on AMD's Exascale Computing Journey</i>, ISCA, 2023.</a></li><li><a href="https://dx.doi.org/10.1145/3552309">Reed, Daniel, Dennis Gannon, and Jack Dongarra, <i>HPC Forecast: Cloudy and Uncertain"</i>, CACM, 2023.</a></li></ul></ul></td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td>Jan 23</td>
+                <td></td>
+                <td>Quality of service and<br>availability.</td>
+                <td><ul><li><b>Required:</b></li><ul><li><a href="https://doi.org/10.1145/3080202">B. Treynor, et al., <i>The Calculus of Service Availability</i>, CACM, 2017.</a></li></ul><li><b>Recommended:</b><ul><li><a href="http://dx.doi.org/10.1145/2987550.2987583">H. S. Gunawi, et al., <i>Why Does the Cloud Stop Computing? Lessons from Hundreds of Service Outages</i>, ISOCC, 2016.</a></li><li><a href="https://doi.org/10.1145/3317550.3321432">Mogul, <i>Nines are Not Enough: Meaningful Metrics for Clouds</i>, HotOS, 2019.</a></li><li><a href="http://doi.acm.org/10.1145/2408776.2408794">Dean, Jeffrey, and Luiz André Barroso, <i>The Tail at Scale</i>, CACM, 2013.</a></li><li><a href="https://doi.org/10.1109/TDSC.2004.4">Bartlett, Wendy and Spainhower, Lisa, <i>Commercial Fault Tolerance: A Tale of Two Systems</i>, IEEE TDSC, 2004.</a></li></ul></li></ul></td>
+            </tr>
+            <tr>
+                <td>Jan 25</td>
+                <td class="textcolordue">Assignment 1<br>Released on Canvas</td>
+                <td>Failures at scale.</td>
+                <td><ul><li><b>Required:</b></li><ul><li><a href="http://dx.doi.org/10.1145/2814330">B. Maurer, <i>Fail at Scale</i>, CACM, 2015.</a></li></ul><li><b>Recommended:</b><ul><li><a href="https://link.springer.com/book/10.1007/978-3-031-01761-2">Barroso, Luiz André, et al., <i>The Datacenter as a Computer: Designing Warehouse-Scale Machines</i>, Chapter 7, Springer Nature, 2019.</a></li></ul></li></ul></td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td>Jan 30</td>
+                <td></td>
+                <td>Testing I: overview.</td>
+                <td><ul><li><b>Required (Pick your favorite one; the other is recommended):</b></li><ul><li><a href="https://doi.org/10.48550/arXiv.2110.11519">Serebryany, Kostya, et al., <i>SiliFuzz: Fuzzing CPUs by Proxy</i>, arXiv, 2021.</i></a></li><li><a href="https://www.usenix.org/system/files/sec22-trippel.pdf">Trippel, Timothy, et al. <i>Fuzzing Hardware Like Software</i>, USENIX Security, 2022.</a></li></ul><li><b>Additional Recommended:</b><ul><li><a href="https://doi.org/10.1145/1807128.1807161">Vishwanath, Kashi Venkatesh, and Nachiappan Nagappan, <i>Characterizing Cloud Computing Hardware Reliability</i>, SoCC, 2010.</a></li></ul></li><li><b>Mentioned in Lecture:</b><ul><li><a href="https://download.intel.com/newsroom/kits/chipmaking/pdfs/Sand-to-Silicon_22nm-Version.pdf">Invel Corporation, <i>Making of a Chip: Illustrations</i>, 2012.</a></li></ul></li></ul></td>
+            </tr>
+            <tr>
+                <td>Feb 1</td>
+                <td></td>
+                <td>Testing II:<br>online vs. offline testing.</td>
+                <td><ul><li><b>Required (Pick your favorite one; the other is recommended):</b></li><ul><li><a href="https://www.usenix.org/system/files/osdi20-sun.pdf">Sun, Xudong, et al., <i>Testing Configuration Changes in Context to Prevent Production Failures</i>, OSDI, 2020.</i></a></li><li><a href="https://arxiv.org/pdf/2203.08989.pdf">Dixit, Harish, et al. <i>Detecting Silent Data Corruptions in the Wild</i>, arXiv, 2022.</a></li></ul><li><b>Additional Recommended:</b><ul><li>TBD</li></ul></li></ul></td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td>Feb 6</td>
+                <td></td>
+                <td>Silent data corruption</td>
+                <td><ul><li><b>Required:</b></li><ul><li>TBD</li></ul></ul><ul><li><b>Recommended:</b></li><ul><li>TBD</li></ul></ul></td>
+            </tr>
+            <tr>
+                <td>Feb 8</td>
+                <td class="textcolordue">Assignment 1 Due<br>(14:00 on Canvas)</td>
+                <td>Assignment 1 Discussion</td>
+                <td><ul><li><b>Required:</b></li><ul><li>None - no review due today.</li></ul></ul><ul><li><b>Recommended:</b></li><ul><li><a href="https://research.google/pubs/detection-and-prevention-of-silent-data-corruption-in-an-exabyte-scale-database-system/">Bacon, David F., <i>Detection and Prevention of Silent Data Corruption in an Exabyte-scale Database System</i>, IEEE Workshop on Silicon Errors in Logic, 2022.</a></li></ul></ul></td>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td>Feb 13</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Feb 15</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">6</td>
+                <td>Feb 20</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Feb 22</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">7</td>
+                <td>Feb 27</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Feb 29</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">8</td>
+                <td>Mar 5</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Mar 7</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">-</td>
+                <td><s>Mar 12</s></td>
+                <td rowspan="2" colspan="3" align="center"><b>Spring Break</b></td>
+            </tr>
+            <tr>
+                <td><s>Mar 14</s></td>
+            </tr>
+            <tr>
+                <td rowspan="2">9</td>
+                <td>Mar 19</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Mar 21</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td>Mar 26</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Mar 28</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">11</td>
+                <td>Apr 2</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Apr 4</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">12</td>
+                <td>Apr 9</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Apr 11</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">13</td>
+                <td>Apr 16</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td>Apr 18</td>
+                <td></td>
+                <td><i>TBD</i></td>
+                <td><i>TBD</i></td>
+            </tr>
+            <tr>
+                <td rowspan="2">14</td>
+                <td>Apr 23</td>
+                <td rowspan="3" colspan="2" class="textcolordue">Final Project Presentations</td>
+            </tr>
+            <tr>
+                <td>Apr 25</td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
+        
+    </main>
+    <footer class="centered">
+        <a href="https://cs.rutgers.edu">Department of Computer Science</a> &nbsp—&nbsp <a href="https://www.rutgers.edu">Rutgers University</a>
+    </footer>
+</body>
+</html>

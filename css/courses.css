@@ -38,17 +38,21 @@ table.cschedule {
     table-layout: auto;
 }
 
-table.cschedule th {
+table.cschedule thead th {
     font-style: bold;
     font-size: larger;
     text-align: left;
-    border-bottom: 2px solid #00b7ff;
     
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 1px;
     padding-right: 16px;
 }
+
+table.cschedule thead tr {
+    border-bottom: 2px solid #00b7ff;
+}
+
 
 table.cschedule tr td {
     padding-top: 4px;
@@ -80,6 +84,6 @@ table.cschedule.twoplusone tr:nth-of-type(3n) {
 }
 
 /* Override for hover */
-table.cschedule tr:hover {
+table.cschedule tr:hover td {
     background-color: #bee2f0;
 }

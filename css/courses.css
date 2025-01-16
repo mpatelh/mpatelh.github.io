@@ -37,10 +37,10 @@ table.cschedule {
     white-space: pre;
 }
 
-table.cschedule td.textcolorassigned {
-    color: #A80000
+table.cschedule span.textcolorassigned {
+    color: #a88b00
 }
-table.cschedule td.textcolordue {
+table.cschedule span.textcolordue {
     color: #A80000
 }
 

@@ -49,6 +49,7 @@ table.cschedule td {
     padding-bottom: 4px;
     padding-left: 0px;
     padding-right: 28px;
+    white-space: nowrap;
 }
 
 table.cschedule thead tr {

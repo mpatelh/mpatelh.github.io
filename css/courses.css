@@ -34,26 +34,35 @@ table.cschedule {
     border-collapse: collapse;
     display: table;
     overflow-x: auto;
-    white-space: pre;
+    white-space: nowrap;
+    table-layout: auto;
+}
+
+table.cschedule th {
+    font-style: bold;
+    font-size: larger;
+    text-align: left;
+    border-bottom: 2px solid #00b7ff;
+    
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    padding-right: 16px;
+}
+
+table.cschedule tr td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    padding-right: 28px;
 }
 
 table.cschedule span.textcolorassigned {
     color: #a88b00
 }
+
 table.cschedule span.textcolordue {
     color: #A80000
-}
-
-table.cschedule td {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 0px;
-    padding-right: 28px;
-    white-space: nowrap;
-}
-
-table.cschedule thead tr {
-    border-bottom: 2px solid #00b7ff;
 }
 
 /* For class schedules: 2 * Lecture + 0 * Recitation */

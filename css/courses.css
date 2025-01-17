@@ -4,6 +4,7 @@ header.course {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 header.course h1 {

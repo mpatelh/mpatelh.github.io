@@ -19,6 +19,13 @@ header.course h3 {
     margin-bottom: 8px;
 }
 
+div.notice {
+    color: #00415a;
+    margin: 0.4em auto;
+    padding: 0.5em;
+    background: #ccf0ff;
+    border: 1px solid #00415a;
+}
 
 footer.centered {
     color: #607685;
